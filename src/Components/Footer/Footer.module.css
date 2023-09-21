@@ -1,0 +1,8 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #2E0052;
+    color: aliceblue;
+    font-weight: 800;
+}
