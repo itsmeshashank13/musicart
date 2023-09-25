@@ -1,0 +1,97 @@
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: .5rem; */
+}
+
+@media (max-width: 576px) {
+    .group {
+      flex-direction: column;
+    }
+}
+
+.icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 5px;
+}
+
+.group p {
+    font-weight: 900;
+    color: #2E0052;
+    font-size: 28px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 0;
+    font-weight: 100;
+    font-size: 30px;
+}
+  
+.container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 2px solid #D9D9D9;
+    border-radius: 15px;
+    width: 22rem;
+    padding: 15px 30px 15px 30px;
+}
+  
+.container input {
+    border: 0;
+    box-sizing: border-box;
+    border: 2px solid #B6B6B6;
+    border-radius: 5px;
+    width: 350px;
+    height: 38px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #524f4f;
+}
+  
+.container label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding: 0;
+}
+  
+.container p {
+    width: 355px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.container button {
+    border: 1px solid #2E0052;
+    background-color: #2E0052;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 38px;
+    width: 350px;
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.container small {
+    text-align: left;
+    margin: 0;
+    font-size: 11.6px;
+}
+
+p {
+    font-weight: 600;
+}
+
+.link {
+font-weight: 500;
+}
+  

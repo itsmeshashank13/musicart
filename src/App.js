@@ -1,11 +1,27 @@
 import './App.css';
-import Footer from './Components/Footer/Footer';
+import { BrowserRouter, Routes, Route, createBrowserRouter } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
+import Signup from './Pages/Signup/Signup';
+import ProductDetail from './Pages/ProductDetail/ProductDetail';
+import Cart from './Pages/Cart/Cart';
+import Checkout from './Pages/Checkout/Checkout';
+import Success from './Pages/Success/Success';
+
 
 function App() {
   return (
-    <div className="App">
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="/ProductDetail/:id" element={<ProductDetail />} />
+        <Route path="/Cart" element={<Cart />} />
+        <Route path="/Checkout" element={<Checkout />} />
+        <Route path="/Success" element={<Success />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
