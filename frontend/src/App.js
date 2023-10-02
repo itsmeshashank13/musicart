@@ -14,12 +14,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Signup" element={<Signup />} />
-        <Route path="/ProductDetail/:id" element={<ProductDetail />} />
-        <Route path="/Cart" element={<Cart />} />
-        <Route path="/Checkout" element={<Checkout />} />
-        <Route path="/Success" element={<Success />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/productDetail/:id" element={<ProductDetail />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/success" element={<Success />} />
       </Routes>
     </BrowserRouter>
   );

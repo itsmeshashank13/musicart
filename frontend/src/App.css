@@ -1,3 +1,8 @@
+* {
+  text-align: center;
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
   font-family: roboto;
